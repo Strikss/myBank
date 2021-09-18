@@ -1,0 +1,128 @@
+.balanceWrapper {
+  width: 100%;
+  min-width: 400px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-left: 0.1 solid #92909425;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background: white;
+  padding: 20px;
+}
+.balance {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 1.3px;
+  width: 100%;
+  padding-right: 120px;
+}
+.header {
+  font-size: 1.2rem;
+  letter-spacing: 1.5px;
+  color: rgba(51, 50, 51, 0.576);
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.balanceContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.topUpWrapper {
+  border: 1.8px solid;
+  border-radius: 15px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  color: rgba(243, 35, 20, 0.767);
+  align-items: center;
+  padding: 20px 2px;
+  letter-spacing: 1.2px;
+  font-weight: 400;
+  margin-bottom: 50px;
+  padding-bottom: 25px;
+}
+.topUpWrapper img {
+  position: relative;
+  top: 4px;
+}
+.sendMoneyWrapper {
+  display: flex;
+  width: 20%;
+}
+.sendMoney {
+  border: 1.8px solid;
+  color: rgba(243, 35, 20, 0.767);
+  border-color: rgba(243, 35, 20, 0.767);
+  width: 100%;
+  text-align: center;
+  border-radius: 20px;
+  padding: 23px 5px;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  transition: 0.5s ease;
+}
+.sendMoney:hover {
+  background: rgba(243, 35, 20, 0.357);
+  color: white;
+  border-color: white;
+}
+.accountWrapper {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  border: 1px solid #92909451;
+  border-radius: 25px;
+  margin-bottom: 30px;
+}
+.headerBox {
+  font-size: 1.05rem;
+  letter-spacing: 1.5px;
+  color: rgba(51, 50, 51, 0.576);
+  font-weight: 300;
+  padding: 10px 15px;
+  width: 100%;
+  margin-left: 20px;
+}
+.sectionWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #92909451;
+  padding: 10px 0px;
+}
+.personal {
+  font-size: 1.05rem;
+  letter-spacing: 1.5px;
+  color: rgba(16, 15, 16, 0.974);
+  font-weight: 500;
+  padding: 10px 15px;
+}
+.personalWrapper {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: right;
+}
+.sectionWrapperTwo {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0px;
+}
+.bold {
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 800;
+}
+.img {
+  width: 25px;
+  position: relative;
+  top: 5px;
+  right: 10px;
+}
+a {
+  text-decoration: none;
+}

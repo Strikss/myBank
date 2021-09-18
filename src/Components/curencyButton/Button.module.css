@@ -1,0 +1,46 @@
+.buttonWrapper {
+  display: flex;
+  flex-direction: row;
+  border: 0.5px solid rgba(3, 3, 3, 0.062);
+  width: 100%;
+  border-radius: 20px;
+  min-width: 320px;
+  max-width: 500px;
+  margin: 18px 0px;
+  align-items: center;
+  padding: 3px;
+  background-color: #ffffff;
+  transition: background-color 0.5s ease;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.178);
+}
+.item {
+  width: 100%;
+  padding-left: 13px;
+  letter-spacing: 1.5px;
+}
+.secondItem {
+  display: flex;
+  padding-right: 13px;
+  margin: 20px 0px;
+  width: 100%;
+  justify-content: right;
+  align-items: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+  overflow: hidden;
+}
+.buttonLink a {
+  color: black;
+}
+a.activeButton .buttonWrapper {
+  background: rgba(243, 35, 20, 0.535);
+  position: relative;
+  left: 20px;
+  box-shadow: 3px 3px 3px rgba(206, 48, 117, 0.178);
+  color: white;
+  font-weight: 500;
+}
+
+.buttonWrapper:hover {
+  background: rgba(243, 35, 20, 0.357);
+}

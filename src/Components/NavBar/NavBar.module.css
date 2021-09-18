@@ -1,0 +1,39 @@
+nav {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  border-right: 0.1px solid #92909425;
+  font-weight: 350;
+  font-size: 1.2rem;
+  letter-spacing: 1.5px;
+  min-width: 250px;
+}
+.item {
+  padding: 18px;
+}
+.item a {
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+}
+.item a.activeLink {
+  color: rgba(243, 35, 20, 0.767);
+  position: relative;
+  left: 10px;
+}
+.item span {
+  position: relative;
+  top: 4px;
+  padding: 7px;
+}
+.item:last-of-type {
+  font-weight: 500;
+  position: relative;
+  top: 600px;
+}
+.logo {
+  padding-left: 40%;
+}
+.item a:hover {
+  color: rgba(243, 35, 20, 0.467);
+}
