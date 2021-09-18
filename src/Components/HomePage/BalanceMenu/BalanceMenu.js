@@ -11,7 +11,7 @@ const BalanceMenu = (props) => {
       <div className={s.header}>Balance</div>
       <div className={s.balanceContainer}>
         <div className={s.balance}>
-          {props.accounts.symbol + props.accounts.balance}
+          {props.symbol + props.balance}
         </div>
         <div className={s.topUpWrapper}>
           <div>
