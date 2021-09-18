@@ -12,8 +12,8 @@ class HomePageContainer extends React.Component {
 
 let mapStateToProps = (state) => {
   return {
-    accounts: state.currencyPage.accounts,
+    accounts: state.currencyPage,
   };
 };
 
-export default connect(mapStateToProps,)(HomePage);
+export default connect(mapStateToProps,{})(HomePage);

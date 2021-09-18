@@ -12,7 +12,7 @@ const NavBar = () => {
         <img className={s.logo} src={logo} width="50px" height="50px" />
       </div>
       <div className={s.item}>
-        <NavLink to="/home/balance" activeClassName={s.activeLink}>
+        <NavLink to="/home/balance/" activeClassName={s.activeLink}>
           <span>
             <img src={home} width="25px" height="25px" />
           </span>

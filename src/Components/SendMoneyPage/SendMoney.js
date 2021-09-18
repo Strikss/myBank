@@ -13,8 +13,7 @@ let SendMoney = (props) => {
         <div>
           {props.accounts.map((p) => {
             
-            return  <SendMoneyButton onClick={() => props.setCurrencyAC(true)}
-          className={props.setCurrency ===true && s.cool}  title={p.title} balance={p.balance} symbol={p.symbol} id={p.id} />;
+            return  <SendMoneyButton title={p.title} balance={p.balance} symbol={p.symbol} id={p.id} />;
           })}
         </div>
       </div>
